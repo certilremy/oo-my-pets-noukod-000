@@ -11,7 +11,7 @@ class Owner
     @name=name
     @@all << self
     @species="human"
-    @pets = {:fishes:=>[],:dogs=>[],:cats=>[]}
+    @pets ={:fishes:=>[],:dogs=>[],:cats=>[]}
   end
 
   def self.count
